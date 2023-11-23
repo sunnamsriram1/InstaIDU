@@ -1,6 +1,9 @@
 
+apt install python3-pip
 
-
+pip install instaloader
+pip install csv
+pip install sys
 
 import instaloader
 import csv
