@@ -1,10 +1,3 @@
-
-apt install python3-pip
-
-pip install instaloader
-pip install csv
-pip install sys
-
 import instaloader
 import csv
 import sys
@@ -76,7 +69,7 @@ def download_profile_info(username):
         print(f"An error occurred: {e}")
 
 def download_user_videos(username):
-    loader = instaloader.Instaloader(download_comments=True)
+    loader = instaloader.Instaloader(download_comments=False)
 
     try:
         profile = instaloader.Profile.from_username(loader.context, username)
