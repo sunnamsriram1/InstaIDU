@@ -1,5 +1,3 @@
- 
-
 import instaloader
 import csv
 import sys
