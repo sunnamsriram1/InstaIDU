@@ -4,7 +4,7 @@
 
 ## How to use:
 ```
-git clone https://github.com/sunnamsriram1/InstaIDU.gi
+git clone https://github.com/sunnamsriram1/InstaIDU.git
 cd InstaIDU
 chmod +x Instagram3.py
 python3 -m install -r requirements.txt
