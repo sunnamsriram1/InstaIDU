@@ -4,6 +4,10 @@
 
 ## How to use:
 ```
+apt update
+apt upgrade
+apt install python3
+apt install git
 git clone https://github.com/sunnamsriram1/InstaIDU.git
 cd InstaIDU
 chmod +x Instagram3.py
